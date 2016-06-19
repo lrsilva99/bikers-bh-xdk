@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-tab-view-js/sample.zip",
       "projectGuid": "ada47ada-a3f3-42a7-b28c-f1b85555ae67",
-      "lastModifiedDate": 1466340997780,
+      "lastModifiedDate": 1466343502100,
       "creationDate": 1466340987413
     },
     "sourceDirectory": "www",
@@ -130,7 +130,7 @@
         "appName_": "bikers-bh",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
@@ -144,7 +144,8 @@
             "itms:*",
             "itms-apps:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
@@ -166,7 +167,7 @@
         "appName_": "bikers-bh",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
@@ -178,7 +179,8 @@
             "mailto:*",
             "geo:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
