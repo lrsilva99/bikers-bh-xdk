@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+
+<head>
+
+    <title>Tab View Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" type="text/css" href="lib/appframework/icons.css" />
+    <link rel="stylesheet" type="text/css" href="lib/appframework/af.ui.css" />
+
+    <script type="text/javascript" charset="utf-8" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/fastclick.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/appframework/appframework.ui.min.js"></script>  
+
+    <script src='cordova.js'></script>
+
+</head>
+
+<body>
+
+    <div id="splashscreen" class='ui-loader heavy'>
+        App Framework - Tab View
+        <br>
+        <br>
+        <span class='ui-icon ui-icon-loading spin'></span>
+        <h1>Starting app</h1>
+    </div>
+
+    <div class="view">
+        <header>
+            <h1>Title</h1>
+        </header>
+
+        <div class="pages">
+
+            <!--Tab View Pages-->
+            <div class="panel" data-title="Home" id="tab1" data-selected="true">
+                <h1>Quem somos</h1>
+                O programa tem como objetivo promover o uso da bicicleta na capital, criando facilidades para quem optar por esse meio de transporte, já que é um veículo de baixo custo de aquisição e de manutenção, não poluente, silencioso, flexível em seus deslocamentos e promotor da melhoria da saúde. Foram identificados 380 km de rotas cicláveis (possíveis de implantar ciclovias e/ou ciclofaixas), na capital mineira. Até o fim de 2013, a meta é atingir 100 km de rotas cicloviárias na cidade, sendo que a maior parte - 76,19 km – terá investimento da Prefeitura de Belo Horizonte (PBH) e 23,81 km serão financiados pelo Banco Mundial. Conforme consta no PLANMOB BH, a Prefeitura de Belo Horizonte e a BHTRANS trabalham para atingir a meta de implantação dos 380 km de rotas cicloviárias estruturantes até 2020. Com isso, espera-se que 6% de todos os deslocamentos da capital se deem por meio do uso da bicicleta.
+            </div>
+
+            <div class="panel" data-title="Participantes" id="tab2" >
+              
+                <div class="row header">
+                    <div class="col-4">Nome: Leonardo Ribeiro Silva</div>
+                    <div class="col-4">Email: lr.silva99@teste.com</div>
+                    <div class="col-2">Sexo: Masculino</div>
+                </div>
+            </div>
+
+            <div class="panel" data-title="Messages" id="tab3">
+                <section>
+        <article>
+          <i class="fa fa-quote-left fa-1x fa-pull-left" aria-hidden="true"></i>
+          ”Quando eu era criança tive um sonho – Eu queria ter a minha própria bicicleta. Quando ganhei uma bike eu devo ter sido o garoto mais feliz de Liverpool, talvez do mundo. Eu vivia por ela. A maioria das crianças largavam suas bicicletas no quintal durante a noite. Não eu. Eu insistia em guardar dentro de casa e na primeira noite eu ainda mantinha na minha cama
+          <i class="fa fa-quote-right fa-1x fa-pull-right" aria-hidden="true"></i>
+          <footer>
+            By <b>John Lennon</b>
+          </footer>
+        </article>
+      </section>
+      <section>
+        <article>
+          <i class="fa fa-quote-left fa-1x fa-pull-left" aria-hidden="true"></i>
+          Toda vez que vejo um adulto em uma bicicleta, eu já não me desespero quanto ao futuro da raça humana”
+          <i class="fa fa-quote-right fa-1x fa-pull-right" aria-hidden="true"></i>
+          <footer>
+            By <b>H. G. Wells</b>
+          </footer>
+        </article>
+      </section>
+      <section>
+            </div>
+
+            <div class="panel" data-title="Dicas" id="tab4">
+                  <article class="post dicas">
+   
+    <p>Método de Pedalada Ideal(por Cleber Ricci Anderson - revista &quot;Bike Action&quot; nº 40)
+      Geralmente, todo mundo pensa que pedalar é fácil e que, como é só empurrar os pedais para baixo
+      alternadamente, o futuro ciclista acha que já sabe pedalar e pode começar a pensar na periodização de
+      seu treinamento visando essa ou aquela competição.
+      É uma tradição no ciclismo, que no Brasil foi esquecida, principalmente pela escassez de técnicos
+      especializados em ciclismo e mountain bike nas últimas décadas. É um velho ensinamento, que acabou
+      ficando para trás porque todo ciclista, profissional ou não, quando começa a temporada, depois de um
+      mês sem praticamente tocar na bicicleta, deve voltar aos treinamentos específicos girando - ou seja,
+      pedalando numa cadência (pedaladas por minuto) mais elevada. Era comum nas bikes de estrada
+      substituir a catraca por um pinhão fixo, como nas bikes de pista - mantendo uma única relação leve,
+      geralmente perto de 42x18 dentes. 
+      Na periodização do treinamento, a fase do giro deve ser a primeira do treinamento, antecedendo a de
+      resistência. É dada ênfase ao giro, à adaptação ao movimento e à sinestesia (a percepção do
+      movimento, desenvolvendo o sistema neuromuscular). Essa fase normalmente dura um mês. No final
+      dessa fase, deve existir a transição com a fase de resistência e do treinamento mais pesado, alternando
+      os treinos de longa distância com os treinos de giro. Para quem vem do sedentarismo, deve-se esticar o
+      giro por mais tempo - assim como para aqueles que ainda não conseguiram desenvolver totalmente a
+      pedalada redonda. É como na musculação. Quando você nunca fez ou ficou muito tempo parado, precisa
+      passar pela adaptação ao movimento, utilizando carga mais baixa nos aparelhos. Somente depois que os
+      músculos estiverem preparados e sabendo como fazer a força, você pode executar os movimentos com
+      uma carga maior.
+    </p>
+    <p>
+      Giro certo
+    </p>
+    Imagine-se subindo uma longa escada. Se os degraus forem baixos, com um passo normal, você
+    conseguirá subir sem muito esforço e por bastante tempo. Se os degraus forem altos e você quiser subir
+    rápido, não chegará lá em cima sem ter que parar e tomar fôlego. Se conseguir chegar, estará todo
+    dolorido e com a freqüência cardíaca nas alturas. 
+    O mesmo acontece com o ciclismo quando retornamos aos treinamentos depois de um grande período
+    sem pedalar (normalmente, por mais de um mês; às vezes, anos). Nesse caso, depois de tanto tempo
+    longe dos pedais, se você quiser sair pedalando como quando estava &quot;treinadaço&quot;, com transmissão
+    pesada, vai acabar herdando uma dor nos joelhos - e outras por todo o corpo. Os músculos não estão
+    mais acostumados com o esforço, estão um pouco atrofiados.
+    Provavelmente, você vai se desestimular mais uma vez porque voltou com tudo - achando que só
+    porque um dia pedalou forte, pedalará sempre. 
+    Esse primeiro mês de giro é o mais importante para todo o resto de sua vida ciclística. É nesse período
+    que você aprenderá a pedalar, percebendo o movimento. 
+    Mão leve nos shift-levers!
+    Na volta às pedaladas, a relação de transmissão deve ser leve, de preferência acima das 100 ppm
+    (pedaladas por minuto). Sem forçar, fluindo fácil. 
+    Os pneus devem ser, de preferência, de baixo peso e slicks (lisos) no caso de uma mountain bike - e
+    calibrados com a pressão máxima. Sendo assim, eles facilitarão a inércia da bike, segurando-a menos no
+    asfalto. 
+    Na traseira do selim, normalmente o giro é melhor. Se sentarmos mais atrás do selim, giraremos com
+    maior facilidade. A elevação das pernas ficará facilitada - tanto é que é mais fácil girar numa bike
+    tradicional de ciclismo ou numa mountain com ângulo do tubo de selim em torno dos 73 graus contra 78
+    graus numa específica para triathlon. Esqueça a distância e a velocidade média do treino, que deve
+    durar de uma a duas horas no máximo. É basicamente um passeio com transmissão bem leve, alternado
+    com os exercícios educativos - ou seja, momentos em que estaremos atentos em cada uma das fases da
+    pedalada. O importante é a qualidade. Faça tudo com muito prazer, procurando sentir tudo o que
+    acontece com a musculatura das pernas. 
+    <p>
+      Pedalada redonda
+    </p>
+    <p>
+      Educativo
+    </p>
+    <p>
+      1: retorno
+    </p>
+    Na passada dos pés pela parte de baixo da pedalada, você deve sentir os pés como se estivessem
+    limpando as solas dos sapatos num tapete, tirando-lhes a terra. Faça força somente na parte de baixo
+    da pedalada (ou seja, uma perna impulsiona a outra para cima). Faça esse educativo em três séries de,
+    no máximo, um minuto por treino, alternado com os educativos 2 e 3. 
+    <p>
+      Educativo
+    </p>
+    <p>
+      2: puxada
+    </p>
+    Concentre-se e comece a perceber os joelhos subindo e passando pelos pontos altos da pedalada. Faça
+    com que eles subam ao máximo, sem que o movimento fique pontudo, quebrado. A pedalada vem de
+    baixo e de trás - e não somente de baixo, como a gente acredita. Procure impulsionar a bicicleta
+    somente com o movimento da puxada das pernas, sem fazer força para baixo. Não desanime se parecer
+    que a bike não sai do lugar. Lembre-se que você está fazendo somente uma parte da pedalada. 
+    Sinta o movimento e perceba que, para aumentar o giro, é fundamental a ascensão das pernas. Como
+    esse exercício utiliza um grupo muscular maior, tente completar um minuto de tiro. Lembre-se: o
+    importante é sentir o movimento e não buscar a performance máxima. Se pensar nisso, estará
+    acumulando muito ácido lático nas pernas. 
+    <p>
+      Educativo 3: chute
+    </p>
+    Da mesma forma e intensidade dos educativos anteriores, perceba somente a fase da pedalada em que,
+    após a perna se elevar, você "chuta" alternadamente com cada uma das pernas, preparando-as para a
+    <p>
+      compressão. 
+    </p>
+    Apesar de serem considerados "pontos mortos" da pedalada, os pontos alto e baixo devem ser sentidos
+    e observados. Eles são a perfeita união entre a compressão e a puxada das pernas, fazendo com que a
+    pedalada fique redonda e perfeita. 
+    A compressão é a única fase em que você não precisa treinar, pois é a que você fez a vida inteira depois
+    que aprendeu a se equilibrar na bicicleta. 
+    <p>
+      Teste de cadência máxima: tiro de 10 segundos
+    </p>
+    O trajeto deve ser em asfalto o mais plano possível - e, de vez em quando, em quatro vezes por treino.
+    Quando uma pequena descida embalar naturalmente, aumente o giro ao máximo, progressivamente e
+    com pouco esforço, mantendo a pedalada redonda. Esse sprint deve durar, no máximo, dez segundos. A
+    relação de marchas deve ser tal que permita um aumento de giro rápido e, no final do tiro, você "perca
+    os pedais" (não consiga mais girar). O ideal é adquirir um ciclo-computador que informe a cadência,
+    como o Sigma 1400 ou o Shimano Flight Deck. 
+    <p>Perceba que, quando realizamos o tiro de dez segundos, se a pedalada não está certa, o giro não
+      aumenta e a pedalada fica falhada. Está aí um problema de coordenação. Procure lembrar dos
+      educativos acima sempre que isso acontecer. Lembrar do joelho alto passando enquanto a outra perna
+      "limpa os pés no tapete". Lembrar do pé chutando enquanto o outro está lá atrás. Pense em tudo ao
+      mesmo tempo. E ainda pense tudo isso circular!
+    </p>
+    <p>
+      Batatas espremidas
+    </p>
+    Outro educativo para a pedalada ideal é a contração das batatas das pernas durante a aceleração,
+    também conhecidas como panturrilhas ou gastrocnêmios. Essa contração não deve se estender por
+    muito tempo. São poucas pedaladas, somente no momento de aceleração. Só um atleta treinado
+    conseguirá realizar esse movimento por bastante tempo, usado muito em situações de pedalada ao
+    máximo. Ela deve ser utilizada para acelerar. Ao atingirmos nossa rotação máxima, devemos procurar a
+    manutenção do giro, relaxando as "batatas" e soltando o movimento. 
+    Sinta a perna inchar, sinta os músculos das coxas irrigados, trabalhando ao máximo. Essa sensação da
+    perna "cheia" é sentida, sobretudo, na elevação da perna. E termina no final da compressão. 
+    Pode parecer difícil, mas é um exercício de coordenação, que aos poucos passará para seu subconsciente
+    - sendo, depois de um tempo, automático. Mesmo um atleta experiente, quando volta às pedaladas ou
+    quando está necessitando da máxima performance, precisa de concentração. 
+    <p>
+        Organizando os tiros
+    </p>
+    1. Os educativos podem ser inicialmente feitos com rotação mais baixa. Aumente a transmissão, utilize
+    uma marcha um pouco mais pesada e confortável do você utiliza quando busca os 100/110 ppm
+    (pedaladas por minuto) - até que o objetivo seja alcançado (até que você consiga sentir somente a parte
+    da pedalada do educativo)
+    <p>
+      2. Faça força somente na fase da pedalada mentalizada naquele momento, completando o resto do ciclo
+      sem força alguma. Perceba que cada "pedaço de pedalada" utiliza músculos diferentes. Após alguns
+      segundos, você os sentirá "queimando", como na musculação. Por essa razão, não exceda mais do que
+      um minuto em cada exercício. Se não der para fazer um minuto de exercício, no mínimo execute vinte
+      segundos. Para ajudar, conte mentalmente 1-2, 1-2, 1-2, relacionando a cada uma das pernas. Cuidado
+      para não se machucar fazendo muita força. Lembre-se: o importante é sentir e fortalecer aos poucos os
+      músculos, que normalmente não são bem trabalhados. Um exemplo: quando fizer o exercício do chute,
+      você sentirá o músculo tibial, o que fica à frente e ao lado da canela. Esses exercícios servem também
+      para que você aqueça toda a musculatura antes de um treino ou competição.
+    </p>
+    <p>
+      3. É até uma redundância, mas é sempre bom falar: faça muito alongamento antes e depois do treino,
+      com calma e cuidado. Se você ainda não sabe como, acesse meu texto em
+      <a href="www.andersonbicicletas.com.br"> www.andersonbicicletas.com.br</a>
+      (clique em anderson magazine/preparação física/alongamentos).
+    </p>
+    4. Para a realização desse treino, certifique-se de que os pés estão bem fixos e de que o calçado está
+    apertado ao máximo, deixando os pés justos dentro das sapatilhas. No caso de firma-pés, que as
+    correias estejam apertadas ao máximo (sugiro que invista num bom par de pedais de encaixe e
+    sapatilhas).
+    <p>
+      5. Portanto, o treino se desenvolve por, no mínimo, uma hora e deve ser organizado da seguinte forma:
+    </P>
+    <p>
+      a. alongamento
+    </p>
+    <p>
+        b. abdominais
+    </p>
+    <p> 
+      c. sair para pedalar buscando um trajeto o mais plano possível, numa cadência, se possível, entre 100
+      e 110 ppm durante pelo menos quinze minutos (ou até sentir-se bem aquecido).
+      6. Buscar um plano (ou, de preferência, uma subida muito leve), encontrar uma cadência e transmissão
+      confortável e começar pelo exercício da fase de retorno ("limpar os sapatos no tapete"), com duração
+      entre 20 e 60 segundos.
+    </p>
+    <p>
+      7. Se, durante o exercício, a transmissão for insuficiente, ou seja, muito leve, recomendo um falso plano
+      para o tiro. Após cada tiro, faça uma recuperação livre até sentir-se pronto para outro tiro. Essa
+      recuperação é uma volta ao giro de 100/110ppm.
+    </p>
+    <p>
+      8. Da mesma forma, faça o exercício da puxada e depois o do chute, sempre alternando com o giro de
+      100/110ppm. A compressão você já faz desde que aprendeu a pedalar. Não é necessário fazê-la.
+    </p>
+    <p>
+        9. Repita mais duas vezes cada exercício.
+    </p>
+    <p>
+      10. Para colocar em prática o giro máximo, aguarde uma &quot;embalada&quot; natural do trajeto, geralmente
+      numa pequena descida, e realize três sprints de dez segundos, buscando o giro máximo. Observe a
+      cadência máxima pedalando sentado. Faça, no início do giro máximo, a contração das batatas das
+      pernas e perceba a diferença.
+    </p>
+    <p>
+      11. Volte aos 100/110 até completar o treino.
+    </p>
+    <p>
+      Giro balanceado
+    </p>
+    <p>
+      Somente assim você atingirá, depois de muito treino e percepção, a pedalada ideal e um giro
+      inacreditável. Se fizer a coisa certa e tiver talento, chegará a mais de 200 ppm. O giro controlado
+      economiza energia, levando-o mais longe e mais rápido. 
+      Não estou dizendo que você deva pedalar sempre em cadência elevada, como Lance Armstrong, que
+      pedala sempre entre 100 e 110 ppm. Cada um se adapta a uma cadência mais confortável, otimizando a
+      relação rotação/potência. Jan Ulrich, o alemão campeão do Tour de France 97, que fez frente a
+      Armstrong em 2001 e quase o vence em 2003, pedala com a transmissão bem pesada - e, é claro,
+      numa cadência bem menor, algo em torno de 70 a 90 ppm. Comparando esses dois atletas, a potência
+      de ambos em watts é praticamente a mesma. Mas, para Ulrich e Armstrong terem sucesso em suas
+      filosofias, ambos têm que realizar a pedalada perfeita. 
+      O teste da cadência máxima ajuda a definir se a sua pedalada está evoluindo ou não. É como uma roda
+      de automóvel, por exemplo. Se estiver desbalanceada, não conseguirá atingir uma alta rotação. No caso
+      da pedalada, é a mesma coisa. Se pedalarmos com muita ênfase, empurrando os pedais para baixo
+      como a grande maioria ou pensando somente na puxada, estaremos fazendo com que a pedalada fique
+      quebrada e não conseguiremos elevar a rotação. Somente é possível passar dos 200 ppm com a
+      pedalada redonda - ou seja, com a mistura ideal entre a compressão, a "limpada no tapete", a "puxada";
+      e o "chute". 
+    </p>
+    <p>
+      Boa temporada para todos - e, é claro, com muito giro no início e uma longa e sólida época de base! 
+    </p>
+    <footer>
+      Fonte: <b>Revista Bikeaction</b>, <b>www.revistabikeaction.com.br</b>
+    </footer>
+      </article>
+            </div>
+
+        </div>
+
+        <footer>
+            <a href="#tab1" class="icon home" onclick="$.afui.clearHistory()">Home</a>
+            <a href="#tab2" class="icon heart" onclick="$.afui.clearHistory()">Participantes</a>
+            <a href="#tab3" class="icon message" onclick="$.afui.clearHistory()">Messages</a>
+            <a href="#tab4" class="icon user" onclick="$.afui.clearHistory()">Dicas</a>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
